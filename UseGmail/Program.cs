@@ -15,7 +15,7 @@ namespace UseGmail
 			var es = new EmailService();
 			string[] address = new string[1];
 			address[0] = "abhijit.shrikhande@modspace.com";
-			es.SendEmail("kits.abee@gmail.com", "Sanat2011", address, null, "TESTING", "TESTING", false);
+			es.SendEmail("userid@gmail.com", "userPassword", address, null, "TESTING", "TESTING", false);
         }
         public class EmailService 
         {
